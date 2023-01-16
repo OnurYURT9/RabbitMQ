@@ -8,7 +8,6 @@ C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\bin\Debug\ne
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\bin\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.pdb
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\bin\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.Views.dll
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\bin\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.Views.pdb
-C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.csproj.AssemblyReference.cache
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.AssemblyInfoInputs.cache
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.AssemblyInfo.cs
@@ -157,3 +156,4 @@ C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\ne
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
 C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\ONUR\source\repos\RabbitmqUdemy\UdemyRabbitmqWatermark.WEB\obj\Debug\netcoreapp3.1\UdemyRabbitmqWatermark.WEB.csproj.AssemblyReference.cache

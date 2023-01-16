@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UdemyRabbitmqWatermark.WEB.BackgroundServices;
 using UdemyRabbitmqWatermark.WEB.Models;
 using UdemyRabbitmqWatermark.WEB.Services;
 
@@ -27,14 +28,16 @@ namespace UdemyRabbitmqWatermark.WEB
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ"))});
+            services.AddSingleton(sp => new ConnectionFactory() { Uri = new Uri(Configuration.GetConnectionString("RabbitMQ")), DispatchConsumersAsync = true });
             services.AddSingleton<RabbitMQClientService>();
             services.AddSingleton<RabbitmqPublisher>();
             services.AddDbContext< AppDbContext > (options=>
             {
                 options.UseInMemoryDatabase(databaseName: "productDb");
             });
+            services.AddHostedService<ImageWatermarkProcessBackgroundService>();
             services.AddControllersWithViews();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
